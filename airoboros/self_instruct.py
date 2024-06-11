@@ -418,6 +418,7 @@ class SelfInstructor:
         ),
         max_value=19,
     )
+    # edit for Azure
     async def _post_openai(self, path: str, payload: Dict[str, Any]) -> Dict[str, Any]:
         """Perform a post request to OpenAI API.
 
